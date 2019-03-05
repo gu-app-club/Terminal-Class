@@ -70,6 +70,12 @@ Using the terminal in everyday programming life can make life much, much easier.
 - curl: 
   - Making web requests
   - Too much to show here...
+- tmux: Terminal multiplexor
+  - Allows multiple terminals sessions to be running at once. Switch from tab to tab 
+  - Also, keeps processes open, even after you log out or go to sleep (great for deployment) 
+  - `tmux ls`, `tmux attach -s name`, `tmux new -s name`. 
+  - CNTL B, then d slightly delayed to detach from the session. 
+  - I use this: https://gist.github.com/MohamedAlaa/2961058 for references. 
 ## Text Editors 
 - vim:
   - Different modes of operation (insertion and regular) 
